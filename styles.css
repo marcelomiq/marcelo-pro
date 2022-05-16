@@ -1,0 +1,103 @@
+
+  section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  .nav-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    padding-left: 5%; 
+    width: 100%;
+
+    justify-content:space-between;
+    align-items:center; 
+
+    
+    background-color: #548CA8;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+
+    
+
+    justify-content: flex-start;
+    align-items:flex-start; 
+
+    align-content: flex-start;
+
+    height:550px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .languages-flex-container {
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: space-around;
+    align-items:center; 
+
+    align-content: flex-start;
+
+    height:550px;
+    background-color: #EEEEEE;
+  }
+
+  .caja {
+    padding-left: 5%;
+    border: 1px solid black;
+  }
+
+
+  #titulo1{
+    font-family: 'Unna', serif;
+    color: black;
+    font-size: 60px;
+    
+    
+
+    order:1;
+    
+    flex-basis: 20%;
+  }
+
+  #titulo2{
+    font-family: 'Unna', serif;
+    color: black;
+    font-size: 90px;
+    margin-top: 0px;
+    order :2;
+    flex-basis: 20%;
+    
+  }
+
+  #titulo3{
+    font-family: 'Unna', serif;
+    color: black;
+
+
+    font-size: 50px;
+    margin-top: 0px;
+    
+    order:3;
+    flex-basis: 20%;
+  }
+
+  .logo-image{
+    width: 46px;
+    height: 46px;
+    
+    margin: 6 px;
+
+    overflow: hidden;
+  } 
+
+  .nav-contact{
+    padding-right: 5%;
+  }
